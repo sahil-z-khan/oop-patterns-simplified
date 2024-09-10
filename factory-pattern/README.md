@@ -1,5 +1,3 @@
-Here’s an example of how the Factory Pattern could be used for managing AWS resources like RDS (Aurora) and EC2. In this case, we'll use the factory to create different types of AWS resources (Aurora, RDS, and EC2) based on the resource type.
-
 ### **Factory Pattern for AWS Resources**
 
 ---
