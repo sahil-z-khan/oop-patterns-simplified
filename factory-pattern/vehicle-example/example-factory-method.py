@@ -25,8 +25,8 @@ class HondaFactory(VehicleFactory):
 
 # Implementation
 if __name__ == "__main__":
-    my_honda = HondaFactory() # Create the factory
-    honda_vehicle: Honda = my_honda.create_vehicle() # Have the factory create the "vehicle" (product)
+    my_honda_factory = HondaFactory() # Create the factory
+    honda_vehicle: Honda = my_honda_factory.create_vehicle() # Have the factory create the "vehicle" (product)
 
     print(honda_vehicle.rev_vehicle()) # utilize the product
 
